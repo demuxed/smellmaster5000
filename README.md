@@ -2,7 +2,7 @@
 
 Code related to Phil's 2021 Demuxed talk - "The mostly definitive history of smell-o-vision".
 
-## Use: 
+## Use
 
 ### Web App
 
