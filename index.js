@@ -15,6 +15,10 @@ v.addEventListener('play', function() {
 	setupTextTracks();
 });
 
+function playVideo() {
+    v.play();
+}
+
 // I'm sorry.
 let writer = new WritableStream();
 let encoder = new TextEncoder();

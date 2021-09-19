@@ -4,11 +4,19 @@
     <title>Smellovision</title>
     <meta charset="UTF-8" />
     <script src="./hls.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://use.typekit.net/ywa3nug.css" rel="stylesheet">
+    <link href="./favicon.ico" rel="shortcut icon" type="image/ico">
   </head>
 
   <body>
-    <div><video id="smell" height="576" controls></video></div>
-    <div><button onclick="connectToSmellmaster()">Connect to Smellmaster 5000</button></div>
+    <div id="logo-wrapper"><img id="logo" src="logo-white.png"><h1>Smellmaster 5000</h1></div>
+    <div><video id="smell" height="576"></video></div>
+    <div id="button-wrapper">
+      <div><button onclick="connectToSmellmaster()">Connect!</button></div>
+      <div><button onclick="playVideo()">Play Video!</button></div>
+    </div>
+    <div id="footer-wrapper"><p id="footer-text">Presented at Demuxed 2021. <a href="https://github.com/demuxed/smellmaster5000">Check out the code on Github</a>.</p></div>
     <script src="./index.js"></script>
   </body>
 </html>

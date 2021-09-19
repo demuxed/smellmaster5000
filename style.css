@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+}
+
+#logo {
+    padding-top: 2rem;
+    width: 250px;
+}
+
+#logo-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    font-family: "brandon-grotesque";
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    font-weight: 900;
+}
+
+#smell {
+    margin: auto;
+    max-width: 70%;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 5px solid #ff5968;
+    border-radius: 20px;
+}
+
+#button-wrapper {
+    margin: auto;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    border-radius: 20px;
+    background-color: #ff5968;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    font-family: "sofia-pro", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    min-width: 200px;
+  }
+
+button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#footer-wrapper {
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+#footer-text {
+    color: white;
+    font-family: "sofia-pro", sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
