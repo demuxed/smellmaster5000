@@ -1,7 +1,7 @@
 let v = document.getElementById("smell");
 let hls = new Hls();
 hls.loadSource(
-    "https://stream.mux.com/KmhVNAoEsiYiMYyGKOSv02Joc5TswV7r01.m3u8"
+    "https://stream.mux.com/vOQejqGpT7lUc7YrdIkxMfNSqFAbSK8N.m3u8"
 );
 hls.attachMedia(v);
 
@@ -11,7 +11,7 @@ v.ontimeupdate = (e) => {
 
 v.addEventListener('play', function() {
     // Jump to close to the... event.
-    v.currentTime = 12;
+    // v.currentTime = 12;
 	setupTextTracks();
 });
 
