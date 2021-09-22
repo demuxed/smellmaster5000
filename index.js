@@ -50,7 +50,7 @@ function setupTextTracks() {
                     if (connected) {
                         write("A");
                         setTimeout(function(){ 
-                            write("B")
+                            // write("B")
                         }, 3000);
                     } 
                     // Fallback to an alert for now
